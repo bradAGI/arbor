@@ -145,8 +145,6 @@ print(optimized_translate(english="hello"))
 ```
 ---
 
----
-
 ### Troubleshooting
 
 **NCCL Errors**
@@ -163,6 +161,9 @@ If you run into issues, double check that you have [nvcc](https://docs.nvidia.co
 ```bash
 nvcc --version
 ```
+
+**WandB not Logging**
+Ensure you've set your `WANDB_API_KEY`!
 
 ---
 
